@@ -21,7 +21,7 @@ namespace SimpleTableDemo
         public static async Task RunDemo()
         {
             var connectionString = "INSERT CONNECTION STRING HERE";
-
+            
             var tableName = "demo" + Guid.NewGuid().ToString().Substring(0, 5);
 
             // Create Table
